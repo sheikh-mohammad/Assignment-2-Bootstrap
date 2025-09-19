@@ -109,3 +109,29 @@ body {
 .service-cards .card i, .service-cards .card span{
     color: var(--primary);
 }
+
+.pp-head button{
+    background: linear-gradient(270deg, #f82a7e 0%, #752a90 100%);
+    transition: .2s all ease;
+}
+
+.popular-properties{
+    padding: 120px 0px;
+}
+
+.pp-head button:hover{
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.pp-head h1{
+    color: var(--primary);
+}
+
+.carousel::before,
+.carousel::after,
+.carousel-item::before,
+.carousel-item::after {
+  content: none !important;
+  background: none !important;
+}
