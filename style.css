@@ -88,7 +88,7 @@ body {
     flex: 1;
 }
 
-.hero-cont a:hover{
+.hero-cont a:hover {
     text-decoration: transparent underline !important;
 }
 
@@ -106,25 +106,26 @@ body {
     top: -40px;
 }
 
-.service-cards .card i, .service-cards .card span{
+.service-cards .card i,
+.service-cards .card span {
     color: var(--primary);
 }
 
-.pp-head button{
+.pp-head button {
     background: linear-gradient(270deg, #f82a7e 0%, #752a90 100%);
     transition: .2s all ease;
 }
 
-.popular-properties{
+.popular-properties {
     padding: 120px 0px;
 }
 
-.pp-head button:hover{
+.pp-head button:hover {
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
 }
 
-.pp-head h1{
+.pp-head h1 {
     color: var(--primary);
 }
 
@@ -132,6 +133,103 @@ body {
 .carousel::after,
 .carousel-item::before,
 .carousel-item::after {
-  content: none !important;
-  background: none !important;
+    content: none !important;
+    background: none !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: static;
+    color: var(--primary);
+    background-color: #E8F0F3;
+    opacity: 1;
+    transition: .3s all ease;
+    width: fit-content;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    background-color: var(--primary);
+}
+
+.carousel-indicators {
+    position: static;
+    margin: 0 !important;
+}
+
+.carousel-indicators button {
+    background-color: #CCCCCC !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.carousel-indicators button.active {
+    background-color: var(--primary) !important;
+}
+
+.popular-properties .carousel-item .card .card-body {
+    bottom: -20px;
+}
+
+.popular-properties .carousel-item img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+
+/* Testinomials */
+
+.testinomials-section {
+    padding: 120px 0px;
+}
+
+.ts-head h1 {
+    color: var(--primary);
+}
+
+.carousel::before,
+.carousel::after,
+.carousel-item::before,
+.carousel-item::after {
+    content: none !important;
+    background: none !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: static;
+    color: var(--primary);
+    background-color: #E8F0F3;
+    opacity: 1;
+    transition: .3s all ease;
+    width: fit-content;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    background-color: var(--primary);
+}
+
+.carousel-indicators {
+    position: static;
+    margin: 0 !important;
+}
+
+.carousel-indicators button {
+    background-color: #CCCCCC !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.carousel-indicators button.active {
+    background-color: var(--primary) !important;
+}
+
+.carousel-item .card .card-body {
+    bottom: -20px;
+}
+
+.testinomials-section .carousel-item img {
+    max-width: 100% !important;
+    height: auto !important;
 }
