@@ -3,9 +3,9 @@
     src: url(assets/fonts/NotoSans-Regular.ttf);
 }
 
-body {
+html, body {
     font-family: "Noto", "Sans-serif" !important;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 :root {
@@ -289,11 +289,11 @@ body {
     padding: 120px 0px;
 }
 
-.agents-head h1{
+.agents-head h1 {
     color: var(--primary);
 }
 
-.agents-head{
+.agents-head {
     margin-bottom: 50px;
 }
 
@@ -301,8 +301,42 @@ body {
     top: -90px;
 }
 
+footer {
+    padding: 120px 0px;
+    background-color: #EFEFEF;
+}
+
+.upper-footer button {
+    background: linear-gradient(270deg, #f82a7e 0%, #752a90 100%);
+    transition: .2s all ease;
+}
+
+.upper-footer button:hover {
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.upper-footer h1 {
+    color: var(--primary);
+}
+
+.footer-link {
+    transition: .3s all ease;
+    text-decoration: none;
+    border-bottom: 4px solid #D1DCE0;
+    color: #21252980;
+}
+
+.middle-footer h6{
+    color: var(--primary);
+}
+
+.footer-link:hover{
+    border-bottom-color: var(--primary);
+}
+
 @media screen and (max-width: 759px) {
-    .quality-img::after{
+    .quality-img::after {
         content: none;
     }
 }
